@@ -1,0 +1,35 @@
+.menu_items{
+    display:flex;
+    flex-direction: column;
+    
+    /* border: 2px solid white; */
+
+    
+    /* text-align: center; */
+
+}
+
+.dash{
+    height: 1px;
+    width: 60px;
+    background-color: white;
+    margin: 15px 15px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid white; */
+    width: 350px;
+}
+
+.tags{
+    margin-bottom: 15px;
+}
+
+.tags>p{
+    font-size: 1.1rem;
+    color: var(--color-gray);
+    text-align: center;
+    
+}

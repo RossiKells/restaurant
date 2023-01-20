@@ -1,0 +1,35 @@
+.app__header{
+    background-color: var(--color-black);
+}
+
+.app__header-h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.app__wrapper_info>p{
+    font-size: 0.9rem;
+    width: 80%;
+    /* color: #000; */
+    letter-spacing: 0ch;
+    line-height: 1.5rem;
+    
+}
+
+.app__wrapper_info>button{
+    padding: .7rem;
+    width: 7rem;
+    font-weight: semi-bold;
+    background-color: var(--color-golden);
+    font-size: 0.8rem;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
