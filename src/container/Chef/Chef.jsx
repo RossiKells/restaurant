@@ -22,8 +22,11 @@ const Chef = () => (
         </div>
 
         <div className="chef_sign">
+          <div className="texts">
+
           <p className="p__opensans">Kevin leo</p>
           <p className="p__opensans">Chef & Founder</p>
+          </div>
           <img src={images.sign} alt="" srcset="" />
         </div>
       </div>
