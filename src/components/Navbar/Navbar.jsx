@@ -5,8 +5,14 @@ import images from '../../constants/images'
 
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = (param) => {
   const [toggleMenu,setToggleMenu] =useState(false);
+  const handleClick=()=>{
+    // console.log(params)
+    param.data(true);
+  }
+  
+  
    return(
     
    
@@ -24,7 +30,7 @@ const Navbar = () => {
     </ul>
 
     <div className="app__navbar-login">
-      <a href="#login" className="p__opensans">Login /  Register</a>
+      <a href="#login" className="p__opensans" onClick={handleClick}>Login /  Register</a>
       <div />
       <a href="/" className='p__opensans'>Book Table</a>
     </div>

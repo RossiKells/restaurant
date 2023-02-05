@@ -1,12 +1,22 @@
-import React from 'react';
+import {React,useState} from 'react';
+import Signup from '../Signup/Signup'
 
 import './Header.css';
 import images from '../../constants/images';
 import { SubHeading } from '../../components';
 
 
-const Header = () => (
+const Header = () => {
+  
+
+  return(
+
+  <>
+  <div className='main'>
+    <Signup/>
+  </div>
   <div className='app__header app__wrapper section__padding' id="home">
+    
     <div className="app__wrapper_info">
       <SubHeading title="Chase the new flavour" />
       <h1 className="app__header-h1">The key to Fine Dining</h1>
@@ -17,6 +27,7 @@ const Header = () => (
       <img src={images.welcome} alt="" srcset="" className='wrapper__img' />
     </div>
   </div>
-);
+  </>
+)};
 
 export default Header;
